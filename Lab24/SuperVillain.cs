@@ -24,9 +24,13 @@ namespace com123_Lesson09A
         public int Malice
         {
             get
-            { return this._malice; }
+            {
+                return this._malice;
+            }
             set
-            { this._malice = value; }
+            {
+                this._malice = value;
+            }
         }
         //Constractior
         /// <summary>

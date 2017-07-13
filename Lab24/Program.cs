@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 Name: Anupom
 Date: 11 July 2017
 Description: This is the driver class for my project
-Version: 0.3 - Used the ToString Method of the SuperHuman class
+Version: 0.7 - Final varsion for Lab 24
  */
 namespace com123_Lesson09A
 {
@@ -21,7 +21,7 @@ namespace com123_Lesson09A
             superHuman.Powers.Add(new Power("Invisibility", 30));
             Console.WriteLine(superHuman.ToString());
 
-            SuperVillain superVillian = new SuperVillain("Super Dude",20);
+            SuperVillain superVillian = new SuperVillain("Mischif",1525);
             superVillian.Powers.Add(new Power("Spiderclimbing",50));
             superVillian.Powers.Add(new Power("Teleportation", 30));
             
