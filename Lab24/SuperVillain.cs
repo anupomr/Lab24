@@ -8,7 +8,7 @@ using System.Text;
  * Date: July 13, 2017 
  * Description: This is the SuperVillain class which inherits from the SuperHuman class
  * and implements the IHasMalice Interface
- * Version: 0.1 - Create  SuperVillain class
+ * Version: 0.1 -Fixed ToString error
  */
 namespace com123_Lesson09A
 {
@@ -43,7 +43,9 @@ namespace com123_Lesson09A
         }
         public override string ToString()
         {
-            return string.Format("Malice points  : {0}",Malice);
+            string outputVillain = "";
+            outputVillain += base.ToString()+ string.Format("Malice points  : {0}", Malice);
+            return outputVillain;
         }
         //private 
     }
